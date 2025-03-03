@@ -8,10 +8,17 @@ body {
 }
 
 header {
-    background: #333333;
-    color: white;
     padding: 0.5em;
     text-align: center;
+    /* background: #333333; */
+    background-image: url('./images/gwb.jpg');
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image in the header */
+    height: 300px; /* You can adjust the height of the header */
+    color: white; /* Text color for contrast */
+    display: flex; /* Optional: for layout purposes if you need centered text */
+    align-items: center; /* Optional: centers content vertically */
+    justify-content: center; /* Optional: centers content horizontally */
 }
 
 main {
@@ -21,6 +28,17 @@ main {
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    margin: 10pt;
+    width: 130pt; /* Set the image size */
+    height: auto; /* Keeps the image's aspect ratio */
 }
 
 section {
