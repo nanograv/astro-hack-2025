@@ -58,3 +58,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+button {
+    /* background-color: #4CAF50; Green background */
+    /* border: none; */
+    /* color: white; */
+    margin: 2pt;
+    padding: 6pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15pt;
+}
