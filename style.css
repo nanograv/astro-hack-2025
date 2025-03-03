@@ -1,0 +1,60 @@
+body {
+    color: #494e52;
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: 1.2;
+    margin: 10;
+    padding: 10;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333333;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    padding: 0pt;
+    margin: 0pt;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+}
+
+ul {
+    margin: 0pt; /* Adjusts indentation of the whole list */
+    padding: 0pt; /* Adjusts indentation of the whole list */
+    list-style-position: inside;
+}
+
+li {
+    margin: 0pt;  /* Adds vertical spacing between list items */
+    padding: 0pt; /* Adds space inside each list item */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
